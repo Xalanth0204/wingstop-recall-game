@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Wingstop Recall Trainer</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Recall Trainer</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h1>Wingstop Recall Trainer</h1>
-<p id="score">Score: 0</p>
+
+<div class="hud">
+  <p id="score">Score: 0</p>
+  <p id="level">Level: Starter</p>
+  <p id="timer">Time: 10</p>
+</div>
 
 <div id="grid" class="grid"></div>
 
 <div id="question" class="hidden">
-  <p id="symbol"></p>
+  <h2 id="symbol"></h2>
   <div id="options"></div>
 </div>
 
