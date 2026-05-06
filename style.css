@@ -1,31 +1,22 @@
 body {
   font-family: Arial;
   text-align: center;
-  background: #f7f7f7;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 100px);
-  gap: 10px;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.card {
-  font-size: 28px;
-  padding: 20px;
-  border: 1px solid #333;
-  cursor: pointer;
-  background: white;
-}
-
-.hidden {
-  display: none;
+  background: #f4f4f4;
 }
 
 .hud {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+#question {
+  margin-top: 40px;
 }
