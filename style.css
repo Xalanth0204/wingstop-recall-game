@@ -1,0 +1,15 @@
+body { font-family: Arial; text-align: center; }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card {
+  font-size: 30px;
+  padding: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.hidden { display: none; }
