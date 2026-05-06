@@ -2,23 +2,27 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Recall Trainer</title>
+<title>Menu Training System</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Wingstop Recall Trainer</h1>
+<h1>Menu Mastery Trainer</h1>
 
 <div class="hud">
-  <p id="score">Score: 0</p>
-  <p id="level">Level: Starter</p>
-  <p id="timer">Time: 10</p>
+  <div id="score"></div>
+  <div id="tier"></div>
 </div>
 
-<div id="grid" class="grid"></div>
-
-<div id="question" class="hidden">
+<div id="question">
   <h2 id="symbol"></h2>
+  <div id="options"></div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
   <div id="options"></div>
 </div>
 
